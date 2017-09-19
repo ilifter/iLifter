@@ -3,31 +3,50 @@
 <head>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Homepage</title>
+  <title>Registrera</title>
   <meta name="description" content="The HTML5 Herald">
   <link rel="stylesheet" type="text/css" href="css/style.css">
    <script src="script/script.js"></script>
 
   
 </head>
+<!--Hej-->
 <body>
 	<img src="bilder/Logotyp.png" alt="Bilden kunde inte laddas" class="logotype">
 	<div class="middletext">
-	<h1>Välkommen till iLifter. Den ultimata träningssidan för dig som vill följa din kroppsliga utveckling!</h1>
+	<h1>Registrering</h1>
 	</div>
 	
 <div class="loginform">
-  <form>
+  <form action="">
+  	<label for="firstname">Förnamn</label>
+    <input type="text" id="firstname" name="firstname" placeholder="Förnamn">
+    <label for="lastname">Efternamn</label>
+    <input type="text" id="lastname" name="lastname" placeholder="Efternamn">
+<br>
+<label for="gender">Kön</label>
+<select>
+	<option value="Kvinna">Kvinna</option>
+	<option value="Man">Man</option>
+</select>
+<br>
     <label for="anvnamn">Användarnamn</label>
     <input type="text" id="anvnamn" name="användarnamn" placeholder="Användarnamn">
-
     <label for="losord">Lösenord</label>
-    <input type="text" id="losord" name="lösenord" placeholder="Lösenord">
+    <input type="password" id="losord" name="lösenord" placeholder="Lösenord">
   
-    <input type="submit" value="Logga in">
-	<input id="registerbutton" type="button" value="Registrera dig" onclick="return registeraccount_onclick()">
+	<input type="submit" value="Registrera">
   </form>
 </div>
 		
+		
+		
+		
+		
+		
+		
+	
+	
+	
 </body>
 </html> 
