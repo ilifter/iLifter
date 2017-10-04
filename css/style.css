@@ -1,3 +1,4 @@
+
 .logotype{
 	width:40%;
 	height:40%;
@@ -12,7 +13,7 @@
 	text-align:center;
     color:#4286f4;
     font-family: arial;
-    font-size: 12px;
+    font-size: 1em;
 }
 
 input[type=text], select {
@@ -29,7 +30,6 @@ input[type=submit] {
     background-color: #4286f4;
     color: white;
     padding: 14px 20px;
-    margin: 8px 0;
     border: solid 1px black;
     cursor: pointer;
 }
@@ -78,4 +78,45 @@ input[type=password], select {
     margin-right: auto;
     width: 80%;
 }
+
+
+.pagemainlogotype{
+    width:20%;
+    height:20%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.tablemain{
+    width:100%;
+    position: fixed;
+    bottom: 0%;
+    overflow: auto;
+    height: 10%;
+    background: white;
+    margin-left: -8px;
+
+
+    
+    
+}
+
+th{
+    width: 20%;
+    padding: 0;
+}
+
+.tablemainbutton{
+    width: 100%;
+    background-color: #4286f4;
+    color: white;
+    border: 1px;
+    cursor: pointer;
+    display:block;
+    height: 100%;
+    padding: 0;
+    
+}
+
 
