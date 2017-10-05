@@ -30,8 +30,8 @@ input[type=submit] {
     background-color: #4286f4;
     color: white;
     padding: 14px 20px;
-    border: solid 1px black;
     cursor: pointer;
+    margin: 4px;
 }
 
 input[type=submit]:hover {
@@ -119,4 +119,7 @@ th{
     
 }
 
+#firsttext{
+    font-size: 12px;
+}
 
