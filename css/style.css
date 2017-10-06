@@ -39,20 +39,6 @@ input[type=submit]:hover {
     color:black;
 }
 
-#registerbutton, #loginbutton{
-    width: 80%;
-    background-color: #4286f4;
-    color: white;
-	border: 1px;
-    padding: 14px 20px;
-    margin-left:auto;
-    margin-right: auto;
-    cursor: pointer;
-    display:block;
-
-
-}
-
 input[type=password], select {
     width: 80%;
     padding: 12px 20px;
@@ -77,8 +63,32 @@ input[type=password], select {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+	
 }
 
+.firstbuttons{
+	width: 80%;
+    background-color: #4286f4;
+    color: white;
+	border: 1px;
+    padding: 14px 20px;
+    margin-left:auto;
+    margin-right: auto;
+    cursor: pointer;
+    display: block;
+}
+
+#loginbutton{
+	width: 80%;
+    background-color: #4286f4;
+    color: white;
+	border: 1px;
+    padding: 14px 20px;
+    margin-left:auto;
+    margin-right: auto;
+    cursor: pointer;
+    display: block;
+}
 
 .pagemainlogotype{
     width:20%;
