@@ -1,42 +1,44 @@
 
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
 .logotype{
-	width:40%;
-	height:40%;
-	display:block;
+	width: 80%;
+    height: 77px;
+	display: block;
 	margin-left:auto;
 	margin-right:auto;
 }
 
-.middletext{
+.login_register_text{
 	width:80%;
 	margin:auto;
 	text-align:center;
     color:#4286f4;
-    font-family: arial;
-    font-size: 1em;
+    font-size: 8px;
+	font-family: 'Merriweather';
+
+}
+body{
+	background-color: #f6f6f6;
+}
+
+.login_register_form{
+	margin-top: 10%;
 }
 
 input[type=text], select {
     width: 80%;
     padding: 12px 20px;
     margin: 8px 0;
-    display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    
 }
 
-input[type=submit] {
-    width: 100%;
-    background-color: #4286f4;
-    color: white;
-    padding: 14px 20px;
-    cursor: pointer;
-    margin: 4px;
-}
-
-input[type=submit]:hover {
-    background-color: #9fbff4;
-    color:black;
+input[type=submit]:hover, .login_register_buttons:hover {
+    background-color: #68a2ff;
 }
 
 input[type=password], select {
@@ -48,7 +50,7 @@ input[type=password], select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-}
+	}
 
 #password, #username{
     width: 80%;
@@ -57,45 +59,17 @@ input[type=password], select {
     display: block;
 }
 
-
-#firstname, #lastname, #username1, #finalregisterbutton{
-    display: block;
+.login_register_buttons{
+	width: 80%;
+    background-color: #4286f4;
+    color: white;
+    border: 1px;
+    padding: 14px 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
-	
-}
-
-.firstbuttons{
-	width: 80%;
-    background-color: #4286f4;
-    color: white;
-	border: 1px;
-    padding: 14px 20px;
-    margin-left:auto;
-    margin-right: auto;
+	margin-top: 8px;
     cursor: pointer;
     display: block;
-}
-
-#loginbutton{
-	width: 80%;
-    background-color: #4286f4;
-    color: white;
-	border: 1px;
-    padding: 14px 20px;
-    margin-left:auto;
-    margin-right: auto;
-    cursor: pointer;
-    display: block;
-}
-
-.pagemainlogotype{
-    width:20%;
-    height:20%;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
 }
 
 .tablemain{
@@ -107,9 +81,14 @@ input[type=password], select {
     background: white;
     margin-left: -8px;
 
+}
 
-    
-    
+.pagemainlogotype{
+    width:20%;
+    height:20%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 th{
@@ -129,7 +108,4 @@ th{
     
 }
 
-#firsttext{
-    font-size: 12px;
-}
 

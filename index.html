@@ -6,25 +6,25 @@
   <title>Homepage</title>
   <meta name="description" content="The HTML5 Herald">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> En css fil för varje sida för struktur. -->
    <script src="script/script.js"></script>
 
   
 </head>
 <body>
 	<img src="bilder/Logotyp.png" alt="Bilden kunde inte laddas" class="logotype">
-	<div class="middletext">
-	<h1 id="firsttext">Välkommen till iLifter. Den ultimata träningssidan för dig som vill följa din kroppsliga utveckling!</h1><br>
+	<div class="login_register_text">
+	<h1>Welcome to iLifter <br> The ultimate training site</h1>
 	</div>
 	
-<div class="loginform">
-  <form>
+
+  <form class="login_register_form">
     <input type="text" id="username" name="username" placeholder="Username">
     <input type="text" id="password" name="password" placeholder="Password">
   
-    <input id="loginbutton" class="firstbuttons" type="submit" value="Logga in">
-	<input id="registerbutton" class="firstbuttons" type="button" value="Registrera dig" onclick="return registeraccount_onclick()">
+    <input id="loginbutton" class="login_register_buttons" type="submit" value="Logg in">
+	<input id="registerbutton" class="login_register_buttons" type="button" value="Register" onclick="return registeraccount_onclick()">
   </form>
-</div>
 		
 </body>
 </html> 
