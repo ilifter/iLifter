@@ -3,26 +3,22 @@ function registeraccount_onclick(){
 }
 
 function traininglog_onclick(){
-	window.location.href = "traininglog.html";
+	window.location.href = "underpagelogs.html";
 }
 
 function calculator_onclick(){
-	window.location.href = "calculator.html";
+	window.location.href = "underpagecalculator.html";
 }
 
 function map_onclick(){
-	window.location.href = "map.html";
+	window.location.href = "underpagemap.html";
 }
 
-function calculator_onclick(){
-	window.location.href = "calculator.html";
-}
-
-function excercises_onclick(){
-	window.location.href = "excercises.html";
+function exercises_onclick(){
+	window.location.href = "underpagemuscles.html";
 }
 
 function about_onclick(){
-	window.location.href = "about.html";
+	window.location.href = "underpageabout.html";
 }
 
