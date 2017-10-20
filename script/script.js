@@ -19,7 +19,7 @@ function exercises_onclick(){
 }
 
 function about_onclick(){
-	window.location.href = "underpageabout.html";
+	window.location.href = "underpageprofile.html";
 }
 
 
