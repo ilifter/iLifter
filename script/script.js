@@ -23,7 +23,7 @@ function about_onclick(){
 }
 
 
-
+//Hej
 
 
 function initMap() {
