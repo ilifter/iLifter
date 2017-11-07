@@ -36,7 +36,7 @@ function about_onclick(){
         var actictaby = {lat: 59.443697, lng: 18.065469};
         var contentString_actictaby = '<h1>Actic Täby</h1>'+
   '<h4><a href="https://www.actic.se/hitta-gym/gym-i-stockholm/stockholm-taby-tibblebadet/">Actic Täbys hemsida</a></h4>'+
-  '<h5>Öppetider <br> Mån: 08:00-22:00 <br> Tisdag: 06.30-21:00 <br> Onsdag: 08:00-21:00 <br> Torsdag: 06:30-21:00 <br> Fredag: 08:00-20:00 <br> Lördag: 08:00-18:00 <br> Söndag: 08:00-17:00</h5>'+
+  '<h5>Öppetider <br> Måndag: 08:00-22:00 <br> Tisdag: 06.30-21:00 <br> Onsdag: 08:00-21:00 <br> Torsdag: 06:30-21:00 <br> Fredag: 08:00-20:00 <br> Lördag: 08:00-18:00 <br> Söndag: 08:00-17:00</h5>'+
   '<table><tr><th>Medlemskap</th><th>Pris</th><th>Persongrupp</th></tr>'+
     '<tr><td>12 månader</td><td>349kr/mån</td><td>Ordinarie</td></tr>'+
     '<tr><td>4 månader</td><td>569kr/mån</td><td>Ordinarie</td></tr>'+
@@ -46,18 +46,32 @@ function about_onclick(){
     '<tr><td>4 mån</td><td>499kr/mån</td><td>Senior</td></tr></table>';
 
         var freshfitnesstaby = {lat: 59.440848, lng: 18.059391};
-        var contentString_freshfitnesstaby = '<h1>Täby Atletklubb</h1>'+'<p>hello</p>';
+        var contentString_freshfitnesstaby = '<h1>Freshfitness Täby</h1>'+
+  '<h4><a href="https://www.freshfitness.se/">Freshfitness Täbys hemsida</a></h4>'+
+  '<h5>Öppetider <br> Mån-Tor: 11:00-21:00 <br> Fredag: 11:00-18:00 <br> Lör-Sön: 11:00-15:00</h5>'+
+  '<table><tr><th>Medlemskap</th><th>Pris</th><th>Persongrupp</th></tr>'+
+    '<tr><td>Månad</td><td>199/mån</td><td>Ordinarie</td></tr>'+
+    '</table>';
 
         var njoytaby = {lat: 59.440464, lng: 18.059004};
-        var contentString_njoytaby = '<h1>Täby Atletklubb</h1>'+'<p>hello</p>';
+        var contentString_njoytaby = '<h1>NJoy Täby</h1>'+
+  '<h4><a href="http://www.njoy.se/taby/">NJoys hemsida</a></h4>'+
+  '<h5>Öppetider <br> Mån-Tor: 05:30-22:00 <br> Fredag: 05:30-20:00 <br> Lördag: 08:30-18:00 <br> Söndag: 08:30-20:00</h5><br>Ring för prislista';
 
 
         var itrimtaby = {lat: 59.435612, lng: 18.059271};
-        var contentString_itrimtaby = '<h1>Täby Atletklubb</h1>'+'<p>hello</p>';
+        var contentString_itrimtaby = '<h1>itrim Täby</h1>'+
+  '<h4><a href="http://www.itrim.se/SE/">itrim Täbys hemsida</a></h4>'+
+  '<h5>Öppetider <br> Mån-Tor: 06:45-21:00 <br> Fredag: 06:45-18:00 <br> Lördag: 08:30-14:00 <br> Söndag: 08:30-16:30</h5>'+
+  '<table><tr><th>Medlemskap</th><th>Pris</th><th>Persongrupp</th></tr>'+
+    '<tr><td>Grundmedlemskap</td><td>319kr/mån</td><td>Ordinarie</td></tr>'+
+    '</table>';
 
 
         var satstabycentrum = {lat: 59.444906, lng: 18.070340};
-        var contentString_satstabycentrum = '<h1>Täby Atletklubb</h1>'+'<p>hello</p>';
+        var contentString_satstabycentrum = '<h1>Sats Täby Centrum</h1>'+
+  '<h4><a href="https://www.sats.se/traningscenter/stockholm/sats-taby-centrum/">Sats Täby Centrums hemsida</a></h4>'+
+  '<h5>Öppetider <br>Mån-Tor: 06:00-22:00 <br> Fredag: 06:00-21:00 <br> Lör-Sön: 09:00-18:00</h5><br><a href="https://www.sats.se/bli-medlem/stockholm/">Prislista</a>';
 
 
         var friskissvettisnasbypark = {lat: 59.425847, lng: 18.085735};
