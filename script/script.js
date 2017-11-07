@@ -22,6 +22,14 @@ function about_onclick(){
 	window.location.href = "underpageprofile.html";
 }
 
+function traininglog1_onclick(){
+	window.location.href = "underpagetraininglog.html";
+}
+
+function newlog_onclick(){
+	window.location.href = "underpagenewlog.html"
+}
+
 /////////////ÄNDRA INGENTING NEDAN FÖRE DU FRÅGAR JOHAN//////////////
 
  function initMap() {
@@ -75,19 +83,43 @@ function about_onclick(){
 
 
         var friskissvettisnasbypark = {lat: 59.425847, lng: 18.085735};
-        var contentString_friskissvettisnasbypark = '<h1>Täby Atletklubb</h1>'+'<p>hello</p>';
+        var contentString_friskissvettisnasbypark = '<h1>Friskis Svettis Näsbypark</h1>'+
+  '<h4><a href="http://taby.friskissvettis.se/">Friskis Svettis Näsbyparks hemsida</a></h4>'+
+  '<h5>Öppetider <br> Mån-Tor: 06:30-22:00 <br> Fredag: 06:30-19:30 <br> Lördag: 08:30-18:00 <br> Söndag: 09:00-20:00 </h5>'+
+  '<h3>Priser för ALLA tider</h3>'+
+  '<table><tr><th>Medlemskap</th><th>Pris</th><th>Persongrupp</th></tr>'+
+    '<tr><td>12 månader</td><td>3600 kr</td><td>Ordinarie</td></tr>'+
+    '<tr><td>Autogiro 12 månader</td><td>330kr/mån</td><td>Ordinarie</td></tr>'+
+    '<tr><td>6 månader</td><td>2500 kr</td><td>Ordinarie</td></tr>'+
+    '<tr><td>PT 12 månader (12 månader träningskort + 12 ggr PT+1 konsultering)</td><td>9800 kr</td><td>Ordinarie</td></tr>'+
+    '<tr><td>Autogiro PT 12 månader</td><td>810kr/mån</td><td>Ordinarie</td></tr>'+
+    '<tr><td>12 månader</td><td>2700 kr</td><td>Student</td></tr>'+
+    '<tr><td>Autogiro 12 månader</td><td>230kr/mån</td><td>Student</td></tr>'+
+    '<tr><td>6 månader</td><td>1850 kr</td><td>Student</td></tr>'+
+    '<tr><td>1 månad</td><td>445 kr</td><td>Student</td></tr>'+
+    '<tr><td>Autogiro PT 12 månader</td><td>695kr/mån</td><td>Student</td></tr>'+'</table>'+
+    '<br>'+
+    '<h3>Priser för dagtid (06:30-16:00) vardagar, Lör-Sön ordinarie öppettider</h3>'+
+    '<table><tr><th>Medlemskap</th><th>Pris</th><th>Persongrupp</th></tr>'+
+    '<tr><td>12 månader</td><td>2700 kr</td><td>Ordinarie</td></tr>'+
+    '<tr><td>Autogiro 12 månader</td><td>230kr/mån</td><td>Ordinarie</td></tr>'+
+    '<tr><td>6 månader</td><td>2100 kr</td><td>Ordinarie</td></tr>'+
+    '<tr><td>1 månad</td><td>595 kr</td><td>Ordinarie</td></tr>'+
+    '</table>';
 
-
-        var grindtorpgym = {lat: 59.438372, lng: 18.070269};
-		var contentString_grindtorpgym = '<h1>Täby Atletklubb</h1>'+'<p>hello</p>';
 
 
         var satsviggbyholm = {lat: 59.442028, lng: 18.095960};
-        var contentString_satsviggbyholm = '<h1>Täby Atletklubb</h1>'+'<p>hello</p>';
+        var contentString_satsviggbyholm = '<h1>SATS Viggbyholm</h1>'+
+  '<h4><a href="https://www.sats.se/traningscenter/stockholm/sats-viggbyholm/">SATS Viggbyholms hemsida</a></h4>'+
+  '<h5>Öppetider <br> Mån-Tor: 06:30-22:00 <br> Fredag: 06:30-21:00 <br> Lördag: 08:00-19:00 <br> Söndag: 09:00-20:00</h5><br><a href="https://www.sats.se/bli-medlem/stockholm/">Prislista</a>';
 
 
         var centralparkenutegym = {lat: 59.437102, lng: 18.084107};
-        var contentString_centralparkenutegym = '<h1>Täby Atletklubb</h1>'+'<p>hello</p>';
+        var contentString_centralparkenutegym = '<h1>Centralparkens Utegym</h1>'+
+  '<h4><a href="https://www.taby.se/fritid-och-kultur/idrott-och-motion/utegym/">Centralparkens Utegyms hemsida</a></h4>'+
+  '<h5>Öppetider <br> Mån-Sön: 24/7</h5>'+
+  '<h4>Nyttjande av gymmet är kostnadsfritt</h4>';
 
 
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -213,24 +245,6 @@ function about_onclick(){
 
         marker7.addListener('click', function() {
           infowindow_friskissvettisnasbypark.open(map, marker7);
-        });
-
-
-
-
-
-
-        var marker8 = new google.maps.Marker({
-        	position: grindtorpgym,
-        	map:map
-        })
-
-		var infowindow_grindtorpgym = new google.maps.InfoWindow({
-          content: contentString_grindtorpgym
-        });
-
-        marker8.addListener('click', function() {
-          infowindow_grindtorpgym.open(map, marker8);
         });
 
 
