@@ -154,7 +154,17 @@ button:hover, a:hover {
     opacity: 0.7;
 }
 
-	   
+figure{
+	display: inline-block;
+	
+	
+}
+
+.exercises{
+	width:90%;
+	margin: auto;
+	text-align: center;
+}
 	   
 	   
 	   
