@@ -118,7 +118,7 @@ th{
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
+    max-width: 35%;
     margin: auto;
     text-align: center;
 }
@@ -145,6 +145,10 @@ a {
     text-decoration: none;
     font-size: 22px;
     color: black;
+}
+
+#Contact{
+	background-color: #4286f4
 }
 
 button:hover, a:hover {
