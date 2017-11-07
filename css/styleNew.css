@@ -154,15 +154,16 @@ button:hover, a:hover {
     opacity: 0.7;
 }
 
+/*--- UNDERPAGE Muscles --- */
+
 figure{
-	display: inline-block;
+	display: block;
 	
 	
 }
 
 .exercises{
 	width:100%;
-	
 	text-align: center;
 }
 	   
