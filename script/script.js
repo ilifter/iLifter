@@ -283,5 +283,179 @@ function newlog_onclick(){
         });
       
       }
+	  
+	  
+function calculator(){
+  var vikt;
+  var total;
+  
+  vikt = (document.getElementById("intext").value);
+  total = (vikt-(document.getElementById("stangvikt").value));
+  
+   total1 =  Math.floor(total/50);
+   rest1 = total%50;
+ 
+   total2 = Math.floor(rest1/40);
+   rest2 = rest1%40;
+   
+   total3 = Math.floor(rest2/30);
+   rest3 = rest2%30;
+   
+   total4 = Math.floor(rest3/20);
+   rest4 = rest3%20;
+    
+	total5 = Math.floor(rest4/10);
+	rest5 = rest4%10;
+	
+	total6 = Math.floor(rest5/5);
+	rest6 = rest5%5;
+	
+	total7 = Math.floor(rest6/4);
+	rest7 = rest6%4;
+	
+	total8 = Math.floor(rest7/3);
+	rest8 = rest7%3;
+	
+	total9 = Math.floor(rest8/2.5);
+	rest9 = rest8%2.5;
+	
+	total10 = Math.floor(rest9/2);
+	rest10 = rest9%2;
+	
+	total11 = Math.floor(rest10/1);
+	rest11 = rest10%1;
+	
+	
+	
+  document.getElementById("result1").innerHTML = total1;
+  
+  document.getElementById("result2").innerHTML = total2;
+ 
+  document.getElementById("result3").innerHTML = total3;
+  
+  document.getElementById("result4").innerHTML = total4;
+  
+  document.getElementById("result5").innerHTML = total5;
+  
+  document.getElementById("result6").innerHTML = total6;
+  
+  document.getElementById("result7").innerHTML = total7;
+  
+  document.getElementById("result8").innerHTML = total8;
+  
+  document.getElementById("result9").innerHTML = total9;
+  
+  document.getElementById("result10").innerHTML = total10;
+ 
+  document.getElementById("result11").innerHTML = total11;
+ 
+  
+ 
+  
+ 
+  
+  tempstring =  " ";
+  for(i=0; i<total1; i++)
+  {
+   tempstring = tempstring + "<img src ='bilder/251.png'>";
+  }
+  document.getElementById("result1").innerHTML = tempstring;
+  
+  
+  
+
+  tempstring =   " ";
+  for(i=0; i<total2; i++)
+  {
+    
+	tempstring = tempstring + "<img src='bilder/20kg.png'>";
+	
+  }
+  
+ document.getElementById("result2").innerHTML = tempstring;
+  
+  
+ 
+  tempstring =  ""
+  for(i=0; i<total3;i++)
+  {
+	tempstring = tempstring + "<img src='bilder/15kg.png'>";
+  }
+  document.getElementById("result3").innerHTML = tempstring;
+  
+  
+  
+   tempstring = ""
+  for(i=0; i<total4;i++)
+  {
+    tempstring = tempstring + "<img src='bilder/10kg.png'>";
+  }
+  document.getElementById("result4").innerHTML = tempstring;
+  
+
+  
+  
+  tempstring = ""
+  for(i=0; i<total5;i++)
+  {
+    tempstring = tempstring + "<img src='bilder/5kg.png'>";
+  }
+  document.getElementById("result5").innerHTML = tempstring;
+  
+  
+  tempstring =  ""
+  for(i=0; i<total6;i++)
+  {
+    tempstring = tempstring + "<img src='bilder/2.png'>";
+  }
+  document.getElementById("result6").innerHTML = tempstring;
+  
+  
+  tempstring =  ""
+  for(i=0; i<total7;i++)
+  {
+    tempstring = tempstring + "<img src='bilder/2kg.png'>";
+  }
+  document.getElementById("result7").innerHTML = tempstring;
+  
+  
+  tempstring = ""
+  for(i=0; i<total8;i++)
+  {
+    tempstring = tempstring + "<img src='bilder/151.png'>";
+  }
+  document.getElementById("result8").innerHTML = tempstring;
+  
+  
+   tempstring = ""
+  for(i=0; i<total9;i++)
+  {
+    tempstring = tempstring + "<img src='bilder/125kg.png'>";
+  }
+  document.getElementById("result9").innerHTML = tempstring;
+  
+  
+  
+  tempstring = ""
+  for(i=0; i<total10; i++)
+  
+  {
+    tempstring = tempstring + "<img src='bilder/1kg.png'>";
+  }
+  document.getElementById("result10").innerHTML = tempstring;
+  
+  
+  tempstring = ""
+  for(i=0; i<total11; i++)
+  
+  {
+    tempstring = tempstring + "<img src='bilder/05kg.png'>";
+  }
+  document.getElementById("result11").innerHTML = tempstring;
+  
+ 
+ 
+   
+}
 
 
