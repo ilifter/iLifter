@@ -18,7 +18,6 @@
 }
 body{
 	background-color: #f6f6f6;
-	
 }
 
 .login_register_form{
@@ -52,6 +51,24 @@ input[type=password], select {
     box-sizing: border-box;
 	}
 
+#viktkg{
+    float:right;
+    width: 100px;
+    text-align: right;
+    position: ;
+
+}
+.numberweight{
+    width: 80%;
+    padding: 12px 20px;
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
 #password, #username{
     width: 80%;
     margin-left: auto;
@@ -80,6 +97,7 @@ input[type=password], select {
     height: 10%;
     background: white;
     margin-left: -8px;
+
 	
 
 }
@@ -119,7 +137,7 @@ th{
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 100%;
+    max-width: 35%;
     margin: auto;
     text-align: center;
 }
@@ -155,65 +173,17 @@ button:hover, a:hover {
     opacity: 0.7;
 }
 
-#profileTable{
-	
-	
-}
-
-.table-fill {
-
-    border-collapse: collapse;
-    height: 150px;
-	max-width: 500px; /* Lösning till bilderna, från dator till mobil?*/
-    padding: 5px;
-    width: 100%;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    animation: float 5s infinite;
-}
-
-/*
-th:first-child {
-    border-top-left-radius: 3px;
-}
-*/
-
-tr {
-    color: #D5DDE5;
-    background: #1b1e24;
-    border-bottom: 4px solid #9ea7af;
-    border-right: 1px solid #343a45;
-    font-size: 20px;
-    vertical-align: middle;
-}
-
-
-
-/*--- UNDERPAGE Muscles --- */
-
 figure{
-	display: block;
+	display: inline-block;
 	
 	
 }
 
 .exercises{
-	width:100%;
+	width:90%;
+	margin: auto;
 	text-align: center;
 }
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
 	   
 	   
 	   
