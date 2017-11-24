@@ -325,8 +325,7 @@ function calculator(){
 	total11 = Math.floor(rest10/1);
 	rest11 = rest10%1;
 	
-	
-	
+		
   document.getElementById("result1").innerHTML = total1;
   
   document.getElementById("result2").innerHTML = total2;
@@ -349,11 +348,7 @@ function calculator(){
  
   document.getElementById("result11").innerHTML = total11;
  
-  
- 
-  
- 
-  
+     
   tempstring =  " ";
   for(i=0; i<total1; i++)
   {
@@ -361,49 +356,35 @@ function calculator(){
   }
   document.getElementById("result1").innerHTML = tempstring;
   
-  
-  
-
   tempstring =   " ";
   for(i=0; i<total2; i++)
   {
-    
 	tempstring = tempstring + "<img src='bilder/20kg.png'>";
-	
-  }
+  }  
+  document.getElementById("result2").innerHTML = tempstring;
   
- document.getElementById("result2").innerHTML = tempstring;
-  
-  
- 
-  tempstring =  ""
+  tempstring =  "";
   for(i=0; i<total3;i++)
   {
 	tempstring = tempstring + "<img src='bilder/15kg.png'>";
   }
   document.getElementById("result3").innerHTML = tempstring;
   
-  
-  
-   tempstring = ""
+  tempstring = "";
   for(i=0; i<total4;i++)
   {
     tempstring = tempstring + "<img src='bilder/10kg.png'>";
   }
   document.getElementById("result4").innerHTML = tempstring;
-  
-
-  
-  
-  tempstring = ""
+    
+  tempstring = "";
   for(i=0; i<total5;i++)
   {
     tempstring = tempstring + "<img src='bilder/5kg.png'>";
   }
   document.getElementById("result5").innerHTML = tempstring;
   
-  
-  tempstring =  ""
+  tempstring =  "";
   for(i=0; i<total6;i++)
   {
     tempstring = tempstring + "<img src='bilder/2.png'>";
@@ -411,7 +392,7 @@ function calculator(){
   document.getElementById("result6").innerHTML = tempstring;
   
   
-  tempstring =  ""
+  tempstring =  "";
   for(i=0; i<total7;i++)
   {
     tempstring = tempstring + "<img src='bilder/2kg.png'>";
@@ -419,15 +400,15 @@ function calculator(){
   document.getElementById("result7").innerHTML = tempstring;
   
   
-  tempstring = ""
+  tempstring = "";
   for(i=0; i<total8;i++)
   {
-    tempstring = tempstring + "<img src='bilder/151.png'>";
+    tempstring = tempstring + "<img src='bilder/115kg.png'>";
   }
   document.getElementById("result8").innerHTML = tempstring;
   
   
-   tempstring = ""
+   tempstring = "";
   for(i=0; i<total9;i++)
   {
     tempstring = tempstring + "<img src='bilder/125kg.png'>";
@@ -436,18 +417,16 @@ function calculator(){
   
   
   
-  tempstring = ""
+  tempstring = "";
   for(i=0; i<total10; i++)
-  
   {
     tempstring = tempstring + "<img src='bilder/1kg.png'>";
   }
   document.getElementById("result10").innerHTML = tempstring;
   
   
-  tempstring = ""
+  tempstring = "";
   for(i=0; i<total11; i++)
-  
   {
     tempstring = tempstring + "<img src='bilder/05kg.png'>";
   }
