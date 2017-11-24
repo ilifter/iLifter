@@ -20,6 +20,18 @@ body{
 	background-color: #f6f6f6;
 }
 
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
 .login_register_form{
 	margin-top: 10%;
 }
@@ -147,17 +159,6 @@ th{
     font-size: 18px;
 }
 
-button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-}
 
 a {
     text-decoration: none;
@@ -166,44 +167,37 @@ a {
 }
 
 #Contact{
-	background-color: #4286f4
+	background-color: #4286f4;
+}
+
+.profileTable {
+	margin: auto;
+    border-collapse: collapse;
+    height: 150px;
+	max-width: 500px; /* Lösning till bilderna, från dator till mobil?*/
+	max-height: 200px;
+    width: 100%;
+}
+
+
+th {
+	color: white;
+    border-top-left-radius: 3px;
+	background: #1b1e24;
+}
+
+
+tr {
+    border-bottom: 4px solid #4286f4;
+    border-right: 1px solid #4286f4;
+    font-size: 20px;
+    vertical-align: middle;
 }
 
 button:hover, a:hover {
     opacity: 0.7;
-}
-
-#profileTable{
 	
-	
-}
-
-.table-fill {
-
-    border-collapse: collapse;
-    height: 150px;
-	max-width: 500px; /* Lösning till bilderna, från dator till mobil?*/
-    padding: 5px;
-    width: 100%;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    animation: float 5s infinite;
-}
-
-/*
-th:first-child {
-    border-top-left-radius: 3px;
-}
-*/
-
-tr {
-    color: #D5DDE5;
-    background: #1b1e24;
-    border-bottom: 4px solid #9ea7af;
-    border-right: 1px solid #343a45;
-    font-size: 20px;
-    vertical-align: middle;
-}
-	   
+} 
 	   
 	   
 	   
