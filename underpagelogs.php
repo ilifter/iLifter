@@ -17,10 +17,11 @@
 	</div>
 
   <form>
-    <input id="traininglog_button" class="login_register_buttons" type="button" value="Training Log" onclick="return traininglog1_onclick()">
+    <button id="traininglog_button" class="login_register_buttons" 
+	type="button" value="Training Log" onclick="return traininglog1_onclick()">Training log</button>
 
-    <input id="newlog_button" class="login_register_buttons" type="button" value="Create new log" 
-    onclick="return newlog_onclick()">
+    <button id="newlog_button" class="login_register_buttons" type="button" value="Create new log" 
+    onclick="return newlog_onclick()">Create new log</button>
   </form>
 
 
