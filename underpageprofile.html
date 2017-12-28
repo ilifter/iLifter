@@ -28,33 +28,39 @@ alt="iLifter.png" style="width:50%">
 <br>
 <br>
 
+<div id="cardbox">
 
-  <table class="profileTable">
-  <tr>
-     <th>Firstname</th>
-     <th>Lastname</th>
-  </tr>
-  <tr>
-    <td>From:</th>
-    <td>Sweden</th>
-  </tr>
-  <tr>
-    <td>Favorite:</td>
-    <td>Deadlift</td>
-  </tr>
-  <tr>
-    <td>Record:</td>
-    <td>140kg</td>
-  </tr>
-</table>
+<header class="Profile_header" id="Profile_First_name">First name:</header>
+<header class="Profile_header" id="Profile_Last_name">Last name:</header>
 
-<p class="title">Information</p>
 
-<p><button id="Contact">Contact</button></p>
+
+<form id="ProfileForm" action="profile.php" method="post">
+
+	<p id="ContactCaption"> Contact admins </p>
+    <div>
+		
+	<label class="profile_label" for="name">Name:</label>
+        <input type="name" id="forn_name" name="profile_user_name">
+    </div>
+    <div>
+        <label class="profile_label" for="mail">E-mail:</label>
+        <input type="email" id="form_mail" name="profile_user_mail">
+    </div>
+    <div>
+        <label class="profile_label" for="msg">Message:</label>
+        <textarea id="msg" name="profile_user_msg"></textarea>
+		
+		
+	<p><button id="Profile_Send">Send Message</button></p>
+	</div>
+	
+</form>
+
+
+
 	
 </div>
-
-
 
 
 
