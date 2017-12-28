@@ -7,19 +7,19 @@ function traininglog_onclick(){
 }
 
 function calculator_onclick(){
-	window.location.href = "underpagecalculator.html";
+	window.location.href = "underpagecalculator.php";
 }
 
 function map_onclick(){
-	window.location.href = "underpagemap.html";
+	window.location.href = "underpagemap.php";
 }
 
 function exercises_onclick(){
-	window.location.href = "underpagemuscles.html";
+	window.location.href = "underpagemuscles.php";
 }
 
 function about_onclick(){
-	window.location.href = "underpageprofile.html";
+	window.location.href = "underpageprofile.php";
 }
 
 function traininglog1_onclick(){
