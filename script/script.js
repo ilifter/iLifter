@@ -1,9 +1,9 @@
 function registeraccount_onclick(){
-	window.location.href = "register.html";
+	window.location.href = "register.php";
 }
 
 function traininglog_onclick(){
-	window.location.href = "underpagelogs.html";
+	window.location.href = "underpagelogs.php";
 }
 
 function calculator_onclick(){
@@ -23,11 +23,11 @@ function about_onclick(){
 }
 
 function traininglog1_onclick(){
-	window.location.href = "underpagetraininglog.html";
+	window.location.href = "underpagetraininglog.php";
 }
 
 function newlog_onclick(){
-	window.location.href = "underpagenewlog.html"
+	window.location.href = "underpagenewlog.php"
 }
 
 /////////////ÄNDRA INGENTING NEDAN FÖRE DU FRÅGAR JOHAN//////////////
