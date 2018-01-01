@@ -24,6 +24,23 @@
   <button type="submit">Save</button>
 </form>
 
+
+
+		<table class="tablemain">
+    <tr>
+      <th><button class="tablemainbutton"
+       onclick="return traininglog_onclick()">Training Log</button></th>
+      <th><button class="tablemainbutton"
+        onclick="return calculator_onclick()">Calculator</button></th>
+      <th><button class="tablemainbutton"
+       onclick="return map_onclick()">Map</button></th>
+      <th><button class="tablemainbutton"
+       onclick="return exercises_onclick()">Exercises</button></th>
+        <th><button class="tablemainbutton"
+       onclick="return about_onclick()">Profile</button></th>
+    </tr>  
+    </table>
+
 		
 <br>
 <br>

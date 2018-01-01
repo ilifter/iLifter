@@ -17,11 +17,8 @@
 	</div>
 
   <form>
-    <button id="traininglog_button" class="login_register_buttons" 
-	type="button" value="Training Log" onclick="return traininglog1_onclick()">Training log</button>
-
     <button id="newlog_button" class="login_register_buttons" type="button" value="Create new log" 
-    onclick="return newlog_onclick()">Create new log</button>
+    onclick="return newlog_onclick()">Training logs</button>
   </form>
 
 

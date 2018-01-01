@@ -1,3 +1,10 @@
+<?php 
+
+session_start();
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +21,7 @@
 	<img src="bilder/Logotyp.png" alt="Bilden kunde inte laddas" class="pagemainlogotype">
 	<div class="middletext"></div>
 	
-
+<h1> Welcome <?php echo $_SESSION['u_usernameid'];?>
 
 
 	
@@ -31,8 +38,8 @@ alt="iLifter.png" style="width:50%">
 
 
 
-<header class="Profile_header" id="Profile_First_name">First name:</header>
-<header class="Profile_header" id="Profile_Last_name">Last name:</header>
+<header class="Profile_header" id="Profile_First_name">First name: <header><?php echo $_SESSION['u_first'];?></header></header>
+<header class="Profile_header" id="Profile_Last_name">Last name: <header><?php echo $_SESSION['u_last'];?></header></header>
 
 
 

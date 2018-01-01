@@ -49,7 +49,7 @@ if(isset($_POST['submit']))
 					$_SESSION['u_last'] = $row['user_lastname'];
 					$_SESSION['u_email'] = $row['user_email'];
 					$_SESSION['u_usernameid'] = $row['user_username'];
-					header("Location: underpageprofile.html");
+					header("Location: underpageprofile.php");
 					exit();
 				}
 			}
