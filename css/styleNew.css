@@ -164,11 +164,50 @@ figcaption{
 
 /*--- Secondpages ---*/
 
+.WorkoutHeader{
+    text-align: center;
+    color: #4286f4;
+    font-size: 2em;
+    font-family: 'Merriweather';
+	
+}
+
 .secondpages_main{
 	border: 1px solid #CCC;
-    height: 600px;
+    height: 1800px;
     width: 80%;
     background-color: white;
+	margin: auto;
+}
+
+iframe{
+	margin-left: 25%;
+	
+}
+
+.WorkoutInfo{
+	margin: auto;
+	width: 630px;
+	font-family: 'Merriweather';
+	padding-top: 3px;
+	
+}
+
+#WorkoutContainer{
+	margin-top: 20px;
+}
+
+#WorkoutPic{
+	margin-top: 40px;
+	margin-left: 25%;
+}
+
+#WorkoutHeaderLow{
+	text-align: center;
+    color: #4286f4;
+    font-size: 1.3em;
+    font-family: 'Merriweather';
+	
 }
 
 /*--- UNDERPAGE PROFILE --- */
