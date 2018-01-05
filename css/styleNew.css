@@ -150,10 +150,11 @@ th{
 /*--- UNDERPAGE Muscles --- */
 
 figure{
-	display: block;
 	text-align: center;
 	border: 1px solid #CCC;
 	border-radius: 1em;
+	width: 100%;
+	margin: auto;
 
 }
 
@@ -176,20 +177,22 @@ figcaption{
 
 .secondpages_main{
 	border: 1px solid #CCC;
-    height: 1800px;
-    width: 80%;
+    height: 1950px;
+    width: 100%;
     background-color: white;
 	margin: auto;
 }
 
 iframe{
-	margin-left: 25%;
+	margin-left: 10%;
+	width: 80%;
+	height: 300px;
 	
 }
 
 .WorkoutInfo{
 	margin: auto;
-	width: 630px;
+	width: 300px;
 	font-family: 'Merriweather';
 	padding-top: 3px;
 	
@@ -201,7 +204,8 @@ iframe{
 
 #WorkoutPic{
 	margin-top: 40px;
-	margin-left: 25%;
+	width: 100%;
+	height: 200px;
 }
 
 #WorkoutHeaderLow{

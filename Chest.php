@@ -30,7 +30,6 @@
 
 
 
-
 <div id="WorkoutContainer">	
 <p class="WorkoutInfo">This isn't a list of the hardest chest exercises. It's focused on the best-of-the-best mass builders, with a little bit of instruction and explanation to complement each choice. 
 You can swap exercises in your current routine for these choices, build your own chest workout with a handful of them, or just try one when your standard chest workout gets stale.</p>	
