@@ -23,11 +23,14 @@
 
 <div class="secondpages_main">
 
-<h1 class="WorkoutHeader"> Chest Workout</h1>
+<h1 class="WorkoutHeader"> Arm Workout</h1>
 
-<iframe width="620" height="405" src="https://www.youtube.com/embed/ubJxrA02MLY">
+<iframe width="620" height="405" src="https://www.youtube.com/embed/HIKzvHkibWc">
 </iframe>
 
+<br>
+<br>
+<br>
 
 
 
@@ -45,12 +48,6 @@ You can swap exercises in your current routine for these choices, build your own
 <p class="WorkoutInfo">This isn't a list of the hardest chest exercises. It's focused on the best-of-the-best mass builders, with a little bit of instruction and explanation to complement each choice. 
 You can swap exercises in your current routine for these choices, build your own chest workout with a handful of them, or just try one when your standard chest workout gets stale.</p>	
 
-
-
-<img src="http://www.gymworkoutchart.com/wp-content/uploads/2017/06/Five-Best-Chest-Exercises.jpg" alt="" id="WorkoutPic" width="620" height="405">
-
-<br>
-<br>
 <br>
 
 <p class="WorkoutInfo">This isn't a list of the hardest chest exercises. It's focused on the best-of-the-best mass builders, with a little bit of instruction and explanation to complement each choice. 
