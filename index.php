@@ -40,7 +40,8 @@ session_start();
 			echo 'Fel lösenord';
 	}
   ?>
-
+	
+ 
   <form class="login_register_form" action = "login.php" method= "POST">
     <input type="text" id="username" name="username" placeholder="Username/E-mail">
     <input type="password" id="password" name="password" placeholder="Password">

@@ -60,7 +60,7 @@ alt="iLifter.png" style="width:50%">
         <textarea id="msg" name="profile_user_msg"></textarea>
 		
 		
-	<p><button id="Profile_Send">Send Message</button></p>
+	<p><button id="Profile_Send">Send Message</button><p>
 	</div>
 	
 </form>
@@ -70,17 +70,22 @@ alt="iLifter.png" style="width:50%">
 
 
 
+<p>
+<form action="index.php" method="post">
+<input class="loggaut" value="Logga ut"	type="submit">
+</form><p>
 
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 
 
 		<table class="tablemain">

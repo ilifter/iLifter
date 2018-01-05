@@ -37,6 +37,8 @@ button {
 	margin-top: 10%;
 }
 
+
+
 input[type=text], select {
     width: 80%;
     padding: 12px 20px;
@@ -239,7 +241,6 @@ a {
 #ProfileForm {
   /* Just to center the form on the page */
   margin: 0 auto;
-  width: 400px;
   /* To see the outline of the form */
   padding: 1em;
   border: 1px solid #CCC;
@@ -279,7 +280,7 @@ textarea {
 
 #Profile_Send{
 	background-color: #4286f4;
-	width: 50%;
+	width: 100%;
 }
 
 button:hover, a:hover {
@@ -287,6 +288,22 @@ button:hover, a:hover {
 	
 } 
 
+.loggaut{	
+	border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+	background-color: #4286f4;
+	font-family: 'Arial';
+}
 	   
+#textarea_log{
+	width: 100%;
+}
 	   
 	   

@@ -19,10 +19,12 @@
 	
 
    <form action="">
-  <textarea name="message" rows="10%" cols="99%"> </textarea>
-  <br>
+  <textarea id="textarea_log" name="message" rows="10%" cols="99%"> </textarea>
+ 
+  
   <button type="submit">Save</button>
 </form>
+
 
 
 
