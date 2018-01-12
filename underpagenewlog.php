@@ -18,14 +18,17 @@
 	</div>
 	
 
-   <form action="">
-  <textarea id="textarea_log" name="message" rows="10%" cols="99%"> </textarea>
- 
-  
+<form method="post" action="savelog.php">
+  <textarea id="textarea_log" name="log" rows="10%" cols="99%"> 
+  </textarea>
   <button type="submit">Save</button>
 </form>
+<br>
+<br>
 
-
+<?php 
+	include_once 'get_logs.php';
+?>
 
 
 		<table class="tablemain">

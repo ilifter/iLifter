@@ -28,9 +28,20 @@ session_start();
 	
 
 <div class="card">
-<img src="https://image.jimcdn.com/app/cms/image/transf/none/path/s97c9f74a5a617115/image/i5ffb1cc20c627eaf/version/1502362099/image.jpg" 
-alt="iLifter.png" style="width:50%">
- 
+
+<?php 
+
+include_once 'get_pic.php';
+
+?>
+
+
+ <form action="upload.php" method="post" enctype="multipart/form-data">
+    Select profile picture:
+    <input type="file" name="fileToUpload" id="fileToUpload">
+	<br>
+    <input type="submit" value="Upload Image" name="submit">
+</form>
 
 <br>
 <br>
@@ -43,27 +54,7 @@ alt="iLifter.png" style="width:50%">
 
 
 
-<form id="ProfileForm" action="profile.php" method="post">
 
-	<p id="ContactCaption"> Contact admins </p>
-    <div>
-		
-	<label class="profile_label" for="name">Name:</label>
-        <input type="name" id="forn_name" name="profile_user_name">
-    </div>
-    <div>
-        <label class="profile_label" for="mail">E-mail:</label>
-        <input type="email" id="form_mail" name="profile_user_mail">
-    </div>
-    <div>
-        <label class="profile_label" for="msg">Message:</label>
-        <textarea id="msg" name="profile_user_msg"></textarea>
-		
-		
-	<p><button id="Profile_Send">Send Message</button><p>
-	</div>
-	
-</form>
 
 </div>
 

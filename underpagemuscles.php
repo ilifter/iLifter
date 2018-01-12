@@ -61,7 +61,7 @@
 	<figure>
 	<figcaption> Shoulder exercises </figcaption>
 	<a href="Shoulder.php">
-  <img src="https://s-media-cache-ak0.pinimg.com/originals/bc/1c/b7/bc1cb731164290a8702a01401e10bdf1.jpg" alt="Shouöder" width="300" height="300">
+  <img src="https://s-media-cache-ak0.pinimg.com/originals/bc/1c/b7/bc1cb731164290a8702a01401e10bdf1.jpg" alt="Shoulder" width="300" height="300">
 	</figure>
 	
 </div>
@@ -75,8 +75,8 @@
 <br>
 <br>
 
-
-		<table class="tablemain">
+<div class="table">
+	<table class="tablemain">
     <tr>
     <th><button class="tablemainbutton"
        onclick="return traininglog_onclick()">Training Log</button></th>
@@ -90,7 +90,7 @@
        onclick="return about_onclick()">Profile</button></th>
     </tr>  
     </table>
-
+</div>
 	
 	
 

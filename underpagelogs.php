@@ -12,9 +12,12 @@
 </head>
 <body>
 	<img src="bilder/Logotyp.png" alt="Bilden kunde inte laddas" class="pagemainlogotype">
-	<div class="middletext">
-	<h1>Training logs</h1>
-	</div>
+	<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
   <form>
     <button id="newlog_button" class="login_register_buttons" type="button" value="Create new log" 
