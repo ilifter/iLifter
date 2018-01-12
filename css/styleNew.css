@@ -37,8 +37,6 @@ button {
 	margin-top: 10%;
 }
 
-
-
 input[type=text], select {
     width: 80%;
     padding: 12px 20px;
@@ -226,6 +224,7 @@ iframe{
 
 .Profile_header{
 	display:inline-block;
+	font-family: 'Merriweather';
 }
 
 .title {
@@ -310,4 +309,20 @@ button:hover, a:hover {
 	width: 100%;
 }
 	   
-	   
+form{
+	font-family: 'Merriweather';
+}
+
+h1{
+	font-family: 'Merriweather';
+	text-align: center;
+	
+}
+
+header{
+	font-family: 'Merriweather';
+}	   
+
+img{
+	width: 100%;
+}

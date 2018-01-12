@@ -10,7 +10,7 @@
 
   
 </head>
-<!--Hej-->
+
 <body>
 	<img src="bilder/Logotyp.png" alt="Bilden kunde inte laddas" class="logotype">
 	<div class="login_register_text">

@@ -18,7 +18,11 @@
 	<form>
 <p>Ange stångens vikt<input type="text" id="stangvikt"></p>
 </form>  
-  
+
+  <?php 
+
+
+?>
 
 <form>
 <p>Ange din totala vikt på stången(inkludera stångens) <input type="text" id="intext"></p>

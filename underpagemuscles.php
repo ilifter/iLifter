@@ -12,6 +12,11 @@
 </head>
 <body>
 
+<?php 
+
+
+
+?>
 
 <div class="exercises">
 	<img src="bilder/Logotyp.png" alt="Bilden kunde inte laddas" class="pagemainlogotype">
@@ -48,6 +53,7 @@
 	 <figcaption> Arm exercises</figcaption>
 	 <a href="Arm.php">
   <img src="http://droualb.faculty.mjc.edu/Course%20Materials/Elementary%20Anatomy%20and%20Physiology%2050/Lecture%20outlines/06_16Figurea-L.jpg" alt="Arms" width="300" height="300">
+  </a>
  </figure>
 	
 	
@@ -55,6 +61,7 @@
 	<figcaption> Abs exercises </figcaption>
 	<a href="Abs.php">
   <img src="https://s-media-cache-ak0.pinimg.com/originals/5c/ab/55/5cab553c9fff070586de088db55a37cb.jpg" alt="Abs" width="300" height="300">
+  </a>
 	</figure>
 	
 	
@@ -62,6 +69,7 @@
 	<figcaption> Shoulder exercises </figcaption>
 	<a href="Shoulder.php">
   <img src="https://s-media-cache-ak0.pinimg.com/originals/bc/1c/b7/bc1cb731164290a8702a01401e10bdf1.jpg" alt="Shoulder" width="300" height="300">
+  </a>
 	</figure>
 	
 </div>

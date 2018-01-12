@@ -24,20 +24,20 @@ session_start();
   <?php
 	if(isset($_GET['register']) && $_GET['register'] == 'success')
 	{
-		echo '<h1> Registrering lyckad! </h1>';
+		echo '<h1> Register successfull! </h1>';
 	}
 	
 	if((isset($_GET['login']) && $_GET['login'] == 'empty'))
 	{
-			echo 'Fyll i info';
+			echo '<h1> Fill in your information!</h1>';
 	}
 	elseif((isset($_GET['login']) && $_GET['login'] == 'error1'))
 	{
-			echo 'Användarnamn finns ej';
+			echo '<h1>The username does not exist!</h1>';
 	}
 	elseif((isset($_GET['login']) && $_GET['login'] == 'error2'))
 	{
-			echo 'Fel lösenord';
+			echo '<h1>Wrong password!</h1>';
 	}
   ?>
 	

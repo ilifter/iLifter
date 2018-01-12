@@ -11,6 +11,13 @@
   
 </head>
 <body>
+
+<?php 
+
+
+
+?>
+
 	<img src="bilder/Logotyp.png" alt="Bilden kunde inte laddas" class="pagemainlogotype">
 	<br>
 <br>

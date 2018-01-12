@@ -21,8 +21,13 @@ session_start();
 	<img src="bilder/Logotyp.png" alt="Bilden kunde inte laddas" class="pagemainlogotype">
 	<div class="middletext"></div>
 	
-<h1> Welcome <?php echo $_SESSION['u_usernameid'];?>
+<h1> Welcome <?php 
 
+echo $_SESSION['u_usernameid'];
+
+?>
+<br>
+<br>
 
 	
 	
@@ -36,8 +41,9 @@ include_once 'get_pic.php';
 ?>
 
 
- <form action="upload.php" method="post" enctype="multipart/form-data">
+<form action="upload.php" method="post" enctype="multipart/form-data">
     Select profile picture:
+	<br>
     <input type="file" name="fileToUpload" id="fileToUpload">
 	<br>
     <input type="submit" value="Upload Image" name="submit">
@@ -49,8 +55,8 @@ include_once 'get_pic.php';
 
 
 
-<header class="Profile_header" id="Profile_First_name">First name: <header><?php echo $_SESSION['u_first'];?></header></header>
-<header class="Profile_header" id="Profile_Last_name">Last name: <header><?php echo $_SESSION['u_last'];?></header></header>
+<header class="Profile_header" id="Profile_First_name">First name: <header class="Profile_header"><?php echo $_SESSION['u_first'];?></header></header>
+<header class="Profile_header" id="Profile_Last_name">Last name: <header class="Profile_header"><?php echo $_SESSION['u_last'];?></header></header>
 
 
 
