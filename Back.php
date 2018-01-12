@@ -32,29 +32,36 @@
 
 
 <div id="WorkoutContainer">	
-<p class="WorkoutInfo">This isn't a list of the hardest chest exercises. It's focused on the best-of-the-best mass builders, with a little bit of instruction and explanation to complement each choice. 
-You can swap exercises in your current routine for these choices, build your own chest workout with a handful of them, or just try one when your standard chest workout gets stale.</p>	
+<p class="WorkoutInfo">When you crack your exercise toolkit open each week on back day, you've got a seemingly endless array of movements available. Knowing which tools are best suited for building a wide, thick back will help you get the job done faster, 
+which is why we've assembled our list of top 10 mass-building back exercises.</p>	
 
 <br>
 
-<p class="WorkoutInfo">This isn't a list of the hardest chest exercises. It's focused on the best-of-the-best mass builders, with a little bit of instruction and explanation to complement each choice. 
-You can swap exercises in your current routine for these choices, build your own chest workout with a handful of them, or just try one when your standard chest workout gets stale.</p>	
+<p class="WorkoutInfo">If you get bowled over by the sheer number of rows you can do on back day, or even draw a total blank when thinking of new exercises to try, consider this list your new back blueprint. Give us your thoughts at the bottom in the comments and add any other recommendations you might have!</p>	
 
 <br>
 
-<p class="WorkoutInfo">This isn't a list of the hardest chest exercises. It's focused on the best-of-the-best mass builders, with a little bit of instruction and explanation to complement each choice. 
-You can swap exercises in your current routine for these choices, build your own chest workout with a handful of them, or just try one when your standard chest workout gets stale.</p>	
+<p class="WorkoutInfo">Barbell Deadlift: This is technically more than a back exercise—it hits the entire posterior chain from your calves to your upper traps—but it's the absolute best for overall backside development. 
+Technique is uber-important with the deadlift, but once you nail it, you can progress to lifting monster weights that will recruit maximum muscle, 
+release muscle-building hormones, and help you get big.</p>	
 
 <br>
 
 
-<p class="WorkoutInfo">This isn't a list of the hardest chest exercises. It's focused on the best-of-the-best mass builders, with a little bit of instruction and explanation to complement each choice. 
-You can swap exercises in your current routine for these choices, build your own chest workout with a handful of them, or just try one when your standard chest workout gets stale.</p>	
+<p class="WorkoutInfo">There are also numerous deadlift progression programs you can follow to help you reach new personal bests. Physiologists love to prescribe the 
+deadlift when programming for strength and conditioning because the exercise hammers your musculature and is one of the best choices to strengthen your bone structure.</p>	
 
 <br>
 
-<p class="WorkoutInfo">This isn't a list of the hardest chest exercises. It's focused on the best-of-the-best mass builders, with a little bit of instruction and explanation to complement each choice. 
-You can swap exercises in your current routine for these choices, build your own chest workout with a handful of them, or just try one when your standard chest workout gets stale.</p>	
+<p class="WorkoutInfo">n your workout: If you're going heavy (sets of fewer than about 6 reps), do deadlifts first so you're fresh. If you're doing deads for repetitions, you can do them later in your workout.</p>	
+
+<p class="WorkoutInfo">Bent-Over Barbell Deadlift: This is probably the second-best back movement in terms of sheer weight you can lift. EMG research has suggested that hitting bent-over barbell rows will work the larger muscle groups of the upper and 
+lower back equally, making this a great overall back builder.[2] Like the deadlift, this is another technical move that requires excellent form but rewards you with a ton of muscle.</p>	
+
+<br>
+
+<p class="WorkoutInfo">In your workout: Do bent-over rows toward the start of your back workout for heavy sets in lower rep ranges, about 6-8 or 8-10. The Smith version is a suitable substitute; it locks you in the vertical plane, but your body has to be in just the right position relative to the bar.</p>	
+
 
 <br>
 <br>
@@ -63,14 +70,8 @@ You can swap exercises in your current routine for these choices, build your own
 <h1 id="WorkoutHeaderLow"> Got any questions? Contact admins!</h1>
 
 </div>
-
-
-
-
-		
+	
 </div>
-	
-	
 	
 
 <br>

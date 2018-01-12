@@ -32,29 +32,30 @@
 
 
 <div id="WorkoutContainer">	
-<p class="WorkoutInfo">This isn't a list of the hardest chest exercises. It's focused on the best-of-the-best mass builders, with a little bit of instruction and explanation to complement each choice. 
-You can swap exercises in your current routine for these choices, build your own chest workout with a handful of them, or just try one when your standard chest workout gets stale.</p>	
+<p class="WorkoutInfo">"Leg day"—the very phrase conjures up images of nausea, days of hobbling, and legs that feel like jello. The feelings may be universal, but bodybuilders looking to annihilate legs have countless workout options at their disposal. 
+While most workouts start with some variation of the squat—widely acclaimed as the best lower-body movement—exercise choice, foot position, and advanced training techniques all allow you to emphasize one particular area of the legs over others. 
+That's great if you want to thicken up your quads, fill out your glutes, or beef up your hamstrings because of a weakness—or simply because you want to prioritize an area for a length of time.</p>	
 
 <br>
 
-<p class="WorkoutInfo">This isn't a list of the hardest chest exercises. It's focused on the best-of-the-best mass builders, with a little bit of instruction and explanation to complement each choice. 
-You can swap exercises in your current routine for these choices, build your own chest workout with a handful of them, or just try one when your standard chest workout gets stale.</p>	
+<p class="WorkoutInfo">Goal 1: More Overall Leg Mass Mass-building comes with a set of rules. 
+That means starting your workout with the most challenging exercises and heaviest loads, hitting the thighs from a variety of angles, keeping the volume (number of total sets and reps) high, and training to muscle failure.</p>	
 
 <br>
 
-<p class="WorkoutInfo">This isn't a list of the hardest chest exercises. It's focused on the best-of-the-best mass builders, with a little bit of instruction and explanation to complement each choice. 
-You can swap exercises in your current routine for these choices, build your own chest workout with a handful of them, or just try one when your standard chest workout gets stale.</p>	
+<p class="WorkoutInfo">Altering your foot placement on the leg press allows you to recruit leg musculature in slightly different ways. Putting your feet up higher on the sled shifts some of the emphasis from the quads to the hams and glutes because a greater degree of hip flexion/extension is taking place. 
+Also, don't shortchange the depth of your knee bend—which should reach 90 degrees—by going too heavy—that also limits glute and hamstrings activation. Unless you're following a pre-exhaust routine, save the single-joint movements for last.y one when your standard chest workout gets stale.</p>	
 
 <br>
 
-
-<p class="WorkoutInfo">This isn't a list of the hardest chest exercises. It's focused on the best-of-the-best mass builders, with a little bit of instruction and explanation to complement each choice. 
-You can swap exercises in your current routine for these choices, build your own chest workout with a handful of them, or just try one when your standard chest workout gets stale.</p>	
+<p class="WorkoutInfo">The workout follows a reverse-pyramid protocol, which allows you to take more total sets to muscle failure. As the rep target goes up, be sure to lighten the weight commensurately. 
+The workouts target four muscle groups: quads, glutes, hamstrings, and calves. To shorten the workout, you could eliminate exercises for calves, hamstrings, or both; if so, hit calves and hammies on a different training day.</p>	
 
 <br>
 
-<p class="WorkoutInfo">This isn't a list of the hardest chest exercises. It's focused on the best-of-the-best mass builders, with a little bit of instruction and explanation to complement each choice. 
-You can swap exercises in your current routine for these choices, build your own chest workout with a handful of them, or just try one when your standard chest workout gets stale.</p>	
+<p class="WorkoutInfo">Notes: Do as many warm-up reps as you need, but never take them to muscle failure.
+Choose a weight that allows you to reach muscle failure by the target rep listed.
+If you have a spotter, do a few forced reps on your 1-2 heaviest sets of each exercise.</p>	
 
 <br>
 <br>

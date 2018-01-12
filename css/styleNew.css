@@ -37,6 +37,10 @@ button {
 	margin-top: 10%;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5386227501e6b3a87cc00db18696cbc26cfda139
 input[type=text], select {
     width: 80%;
     padding: 12px 20px;
@@ -64,6 +68,25 @@ input[type=password], select {
     box-sizing: border-box;
 	}
 
+.WorkoutHeader{
+    text-align: center;
+    color: #4286f4;
+    font-size: 2em;
+    font-family: 'Merriweather';
+	
+}	
+	
+/*--- UNDERPAGE CALCULATOR --- */
+
+.Calc_Form{
+	text-align: center;
+    color: #4286f4;
+    font-size: 1em;
+    font-family: 'Merriweather';
+}
+	
+	
+	
 #viktkg{
     float:right;
     width: 100px;
@@ -110,7 +133,6 @@ input[type=password], select {
     height: 10%;
     background: white;
     margin-left: -8px;
-
 	
 
 }
@@ -138,9 +160,10 @@ th{
     height: 100%;
     padding: 0;
 	min-width: 70%;
+	font-size: 0.82em;
     
 }
-
+	
 #map {
         height: 100%;
         width: 100%;
@@ -165,17 +188,9 @@ figcaption{
 
 /*--- Secondpages ---*/
 
-.WorkoutHeader{
-    text-align: center;
-    color: #4286f4;
-    font-size: 2em;
-    font-family: 'Merriweather';
-	
-}
-
 .secondpages_main{
 	border: 1px solid #CCC;
-    height: 1950px;
+    height: 2100px;
     width: 100%;
     background-color: white;
 	margin: auto;
@@ -202,14 +217,15 @@ iframe{
 
 #WorkoutPic{
 	margin-top: 40px;
-	width: 100%;
+	width: 85%;
 	height: 200px;
+	margin-left: 8%;
 }
 
 #WorkoutHeaderLow{
 	text-align: center;
     color: #4286f4;
-    font-size: 1.3em;
+    font-size: 1.0em;
     font-family: 'Merriweather';
 	
 }

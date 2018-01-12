@@ -12,11 +12,17 @@
 <body>
 	<img src="bilder/Logotyp.png" alt="Bilden kunde inte laddas" class="pagemainlogotype">
 	<div class="middletext">
-	<h1>Calculator</h1>
-	</div>
+	
+	<br>
+	<br>
+	<br>
 
+	
+	<h1 class="WorkoutHeader">Calculator</h1>
+	</div>
+	
 	<form>
-<p>Ange stångens vikt<input type="text" id="stangvikt"></p>
+<p class="Calc_Form">Ange stångens vikt<input type="text" id="stangvikt"></p>
 </form>  
 
   <?php 
@@ -25,7 +31,7 @@
 ?>
 
 <form>
-<p>Ange din totala vikt på stången(inkludera stångens) <input type="text" id="intext"></p>
+<p class="Calc_Form">Ange din totala vikt på stången(inkludera stångens) <input type="text" id="intext"></p>
 </form>  
   
 <p>
