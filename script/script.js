@@ -54,8 +54,8 @@ function newlog_onclick(){
     '<tr><td>4 mån</td><td>499kr/mån</td><td>Senior</td></tr></table>';
 
         var freshfitnesstaby = {lat: 59.440848, lng: 18.059391};
-        var contentString_freshfitnesstaby = '<h1>Freshfitness Täby</h1>'+
-  '<h4><a href="https://www.freshfitness.se/">Freshfitness Täbys hemsida</a></h4>'+
+        var contentString_freshfitnesstaby = '<h1>SATS BASE</h1>'+
+  '<h4><a href="https://www.freshfitness.se/">SATS BASE</a></h4>'+
   '<h5>Öppetider <br> Mån-Tor: 11:00-21:00 <br> Fredag: 11:00-18:00 <br> Lör-Sön: 11:00-15:00</h5>'+
   '<table><tr><th>Medlemskap</th><th>Pris</th><th>Persongrupp</th></tr>'+
     '<tr><td>Månad</td><td>199/mån</td><td>Ordinarie</td></tr>'+

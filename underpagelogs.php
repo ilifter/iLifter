@@ -20,6 +20,12 @@
 <br>
 
   <form>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
     <button id="newlog_button" class="login_register_buttons" type="button" value="Create new log" 
     onclick="return newlog_onclick()">Training logs</button>
   </form>
